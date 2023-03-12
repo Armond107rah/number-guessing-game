@@ -77,14 +77,14 @@ def guess_number(random_number, no_of_steps, start_num, end_num,hints):
             if hints == True:
                 print("Guess smaller number.")
             else:
-                print("Your guess is incorrect.Please try again..")
+                print("Your guess is incorrect. Please try again..")
             no_of_steps = no_of_steps + 1
         # if user guess is smaller
         elif user_guess < random_number:
             if hints == True:
                 print("Guess larger number.")
             else:
-                print("Your guess is incorrect.Please try again..")
+                print("Your guess is incorrect. Please try again..")
 
             no_of_steps = no_of_steps + 1
         # else if guess and random number matches
